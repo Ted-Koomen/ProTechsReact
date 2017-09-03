@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Banner from './Banner';
 import Logo from './Logo';
+import Navbar from './Navbar';
 
 class App extends Component {
   constructor(props) {
@@ -11,6 +12,7 @@ class App extends Component {
       <div>
         <Banner />
         <Logo />
+        <Navbar />
       </div>
     )
   }

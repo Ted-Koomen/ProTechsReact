@@ -18,5 +18,10 @@ body {
     right: 0;
     width: 200px;
     height: 100px;
+}
 
+.navbar {
+  position: absolute;
+  top: 150px;
+  right: 50%;
 }
