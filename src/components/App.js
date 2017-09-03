@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Banner from './Banner';
-import Logo from './Logo';
-import Navbar from './Navbar';
-
+import Navbar from './Navbar'
+import Body from './Body';
 class App extends Component {
   constructor(props) {
     super(props)
@@ -11,7 +10,7 @@ class App extends Component {
     return (
       <div>
         <Banner />
-        <Logo />
+        <Body />
         <Navbar />
       </div>
     )
