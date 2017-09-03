@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Banner from './Banner';
+import Logo from './Logo';
 
 class App extends Component {
   constructor(props) {
@@ -7,7 +8,10 @@ class App extends Component {
   }
   render() {
     return (
-      <Banner />
+      <div>
+        <Banner />
+        <Logo />
+      </div>
     )
   }
 }
